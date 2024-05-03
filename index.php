@@ -8,7 +8,7 @@ if(isset($_GET['go'])) {
     //init curl
     curl_setopt($ch, CURLOPT_USERAGENT, $useragent);
     // SET URL FOR THE POST FORM LOGIN
-    curl_setopt($ch, CURLOPT_URL, 'https://replication.pkcdurensawit.net/puntocritico.com/'.$url.'/');
+    curl_setopt($ch, CURLOPT_URL, 'https://replication.pkcdurensawit.net/haber29/'.$url.'/');
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 0);
 
     curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
